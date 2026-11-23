@@ -13,11 +13,17 @@ Do not build all phases in one pass. Each phase should be reviewed before the ne
 | 6. Commerce foundation | Disabled adapter, eligibility gates, provider integration seam | No transaction can occur while disabled or unverified |
 | 7. QA and launch readiness | Accessibility, SEO, performance, security, content and legal review checklist | QA report complete; launch blockers explicit |
 
+## Repository
+`projek-12/premium-peptide-webshop`. Earlier drafts named the target repository as `ikap2420-blip/webshop`; that name has been replaced.
+
 ## Phase 1 audit result
 The repository snapshot supplied for audit contained a single `README.md` with the heading `# webshop`. No application source, package manifest, architecture documents, tasks, ADRs, or prototype were present in that snapshot. Git branches and pull requests were not visible in the ZIP snapshot and must be checked in the actual Git repository.
 
 ## Phase 2 status
-This bundle proposes an initial stack and boundaries. ADR-001 is not approved merely because it is included. Review it before implementation.
+ADR-001 (initial stack and boundaries) was approved by the project owner on 24 November 2026. Phase 2 is not yet closed: the remaining items are listed in `tasks/phase-2-foundation.md` (live Git inspection, brand placeholder, initial language, owner acceptance of boundary documents).
+
+## Phase 3 status
+A design system specification is drafted in `docs/design/DESIGN-SYSTEM.md`. It is awaiting owner review. Font selection and a visual reference sheet are outstanding. Phase 4 must not start until the Phase 3 exit criteria are met.
 
 ## Release gates
 A visually complete storefront is not equivalent to a legally launchable webshop. Launch requires documented product classification, destination-specific review, payment-provider approval, fulfilment/shipping review, privacy and consumer-law review, and verified product documentation.
